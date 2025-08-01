@@ -10,7 +10,7 @@ type ValidationData = {
 const validationsByType:Record<NumberType, ValidationData> = {
   math: {
     regexp: /^[\d]+$/,
-    errorMessage: 'Number must be integer'
+    errorMessage: 'Number must be an integer'
   },
   date: {
     regexp: /^[\d]{1,2}\/[\d]{1,2}$/,
@@ -18,11 +18,11 @@ const validationsByType:Record<NumberType, ValidationData> = {
   },
   trivia: {
     regexp: /^[\d]+$/,
-    errorMessage: 'Number must be integer'
+    errorMessage: 'Number must be an integer'
   } ,
   year: {
     regexp: /^[\d]+$/,
-    errorMessage: 'Number must be integer'
+    errorMessage: 'Number must be an integer'
   },
 }
 
