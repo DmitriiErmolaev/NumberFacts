@@ -1,0 +1,14 @@
+.form-container {
+  flex: 400px 0 0;
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px 0px rgb(212, 212, 212),
+  0 0 20px 15px rgb(250, 250, 250),
+  0 0 30px 30px rgb(250, 250, 250);
+
+  &.disabled {
+    background-color: rgb(236, 236, 236);
+    opacity: 0.4;
+    box-shadow: none;
+  }
+}

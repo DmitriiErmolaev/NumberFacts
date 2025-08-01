@@ -1,0 +1,16 @@
+.fancy-slogan {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  font: 48px Lobster, Serif;
+  background-image: linear-gradient(to bottom right, #FFD700, #FF8C00, #FF4500, #B22222);
+  background-clip: text;
+  color: transparent;
+
+  .and-word {
+    align-self: center;
+  }
+  .wonder-word {
+    align-self: flex-end;
+  }
+}
